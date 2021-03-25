@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    //Be sure to understand what @State is doing
     @State var theUser = ""
     @State var airplaneModeIsOn = true
     @State var pushNotificationsAreOn = true
